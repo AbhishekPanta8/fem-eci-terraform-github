@@ -1,10 +1,10 @@
 //we need repo names to start.
 locals {
   repos={
-    "fem-eci-terraform-tfe" = {
+    "fem-eci-terraform-workspace" = {
       description = "This is a repo for automation for Terraform Enterprise"
       gitignore_template = "Terraform"
-      name = "fem-eci-terraform-tfe"
+      name = "fem-eci-terraform-workspace"
       topics = ["terraform", "automation"]
       visibility = "public"
 
