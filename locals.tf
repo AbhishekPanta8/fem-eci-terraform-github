@@ -18,7 +18,7 @@ locals {
     }
 
     "fem-eci-terraform-aws-network" = {
-      description        = "Automation for GitHub"
+      description        = "Automation for aws networks"
       gitignore_template = "Terraform"
       name               = "fem-eci-terraform-aws-network"
       topics             = ["aws", "terraform"]
@@ -26,7 +26,7 @@ locals {
     }
 
     "fem-eci-terraform-aws-cluster" = {
-      description        = "Automation for GitHub"
+      description        = "Automation for aws cluster"
       gitignore_template = "Terraform"
       name               = "fem-eci-terraform-aws-cluster"
       topics             = ["aws", "terraform"]
